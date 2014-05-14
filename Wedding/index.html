@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Wedding Invitation</title>
+		<link rel="stylesheet" href="css/wedding.css" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="headline">			
+				<h1 id="itallbegan">It all began</h1>
+				<h2 id="in2009">in 2009</h2>
+				<h3 id="athhs">at HHS</h3>
+				<p>Here's some story info, yo.</p></div>
+			</div>
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="js/jquery-ui.js" charset="utf-8"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript">
+			$('document').ready(function(){
+				var height = $(window).height();
+				$('#wrapper').css("height", height * 7);
+				
+				$(window).scroll(function(){
+					var counter = $(window).scrollTop();
+					
+					if(counter === 0){
+						$('#wrapper').stop().animate({backgroundColor: "#fff"}, 300, function(){});
+					}
+					else if(counter > height && counter < (height * 2)){
+						$('#wrapper').stop().animate({backgroundColor: "#E5E6D3"}, 300, function(){});
+					}
+					else if(counter >= (height * 2) && counter < (height * 3)){
+						$('#wrapper').stop().animate({backgroundColor: "#B58389"}, 300, function(){});
+					}
+					else if(counter >= (height * 3) && counter < (height * 4)){
+						$('#wrapper').stop().animate({backgroundColor: "#E19E95"}, 300, function(){});
+					}
+					else if(counter >= (height * 4) && counter < (height * 5)){
+						$('#wrapper').stop().animate({backgroundColor: "#3F1C29"}, 300, function(){});
+					}
+					else if(counter >= (height * 5) && counter < (height * 6)){
+						$('#wrapper').stop().animate({backgroundColor: "#65324B"}, 300, function(){});
+					}
+					else{
+						$('#wrapper').stop().animate({backgroundColor: "#E5E6D3"}, 300, function(){});
+					}
+
+				});
+			});
+		</script>
+		
+	</body>
+</html>

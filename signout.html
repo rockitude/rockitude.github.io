@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Out - Mike Lipson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <style type="text/css" media="screen">
+    	body{
+	    	text-align: center;
+    	}
+    	footer{
+	    	text-align: left;
+    	}
+    </style>
+  </head>
+  <body>
+  	<div class="row" id="topmenu">
+  				  	<div class="container">
+  	<div class="span12">
+		<div class="navbar">
+		  	<div class="navbar-inner">
+
+				  	<ul class="nav">
+				  	<li><a href="http://www.mikelipson.com"><span class="fui-location-24"></span> Home</a></li>
+					  		<li><a href="./policies.html"><span class="fui-bubble-24"></span> Policies</a></li>
+					  	<li><a href="#"><span class="fui-menu-24"></span> Courses</a>
+					  		<ul>
+						  		<li><a href="http://mikelipson.com/gd">Game Design</a></li>
+						  		<li><a href="http://mikelipson.com/em">Electronic Music</a></li>
+						  		<li><a href="http://mikelipson.com/aem">Advanced Electronic Music</a></li>
+					  		</ul>
+					  	</li>
+					  	<li><a href="http://github.com/rockitude"><span class="fui-cmd-24"></span> Software</a></li>
+					  	<li><a href="http://www.youtube.com/user/mlipsonvids"><span class="fui-video-24"></span> YouTube</a></li>
+					  	<li><a href="http://mikelipson.com/resume"><span class="fui-man-24"></span> Resume</a></li>
+				  	</ul> 
+			  	</div> <!-- end container -->
+		  	</div> <!-- end navbar-inner -->
+		</div> <!-- end navbar -->
+  	</div>
+	  	
+  	</div>
+    <div class="container">
+    
+    <h1 class="demo-logo">Sign Out<small>Go to the Bathroom, or your locker, or to get a drink.</small></h1>
+    
+    	<form action="https://docs.google.com/a/natickps.org/spreadsheet/formResponse?formkey=dEtZZ05kbng3dGpnSU5VdjdPbTB1QkE6MA&amp;ifq" method="POST" id="ss-form">
+
+		<br>
+		<div class="errorbox-good">
+			<div class="ss-item ss-item-required ss-text">
+				<div class="ss-form-entry"><label class="ss-q-title" for="entry_2">Name:
+					<span class="ss-required-asterisk">*</span></label>
+					<label class="ss-q-help" for="entry_2"></label>
+					<input type="text" name="entry.2.single" value="" class="ss-q-short" id="entry_2"></div></div></div>
+					<br> <div class="errorbox-good">
+					<div class="ss-item ss-item-required ss-select"><div class="ss-form-entry"><label class="ss-q-title" for="entry_0">Are you leaving or returning?
+					<span class="ss-required-asterisk">*</span></label>
+					<label class="ss-q-help" for="entry_0">Choose from the list below.</label>
+					<select name="entry.0.single" id="entry_0" class="dk-container span3 dk-shown dk-theme-default"><option value="Leaving ">Leaving </option> <option value="Returning ">Returning </option></select></div></div></div>
+					<br> <div class="errorbox-good">
+					<div class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_1">Where are you going/coming from?
+					<span class="ss-required-asterisk">*</span></label>
+					<label class="ss-q-help" for="entry_1">Fill in your response in the space below.</label>
+					<input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1"></div></div></div>
+					<br>
+					<input type="hidden" name="pageNumber" value="0">
+					<input type="hidden" name="backupCache" value="">
+					
+					
+					<div class="ss-item ss-navigate"><div class="ss-form-entry">
+					<input class="btn btn-primary btn-large" type="submit" name="submit" value="Submit">
+						
+					</div>
+				</div>
+			</div>
+		</form>
+    
+    </div> <!-- /container -->
+
+    <footer>
+      <div class="container">
+      <div class="row">
+      	<div class="span7">
+	      	<h3 class="footer-title">Links</h3>
+	      	<ul>
+		      	<li><a href="http://mikelipson.com/gd">Game Design</a></li>
+		      	<li><a href="http://mikelipson.com/em">Electronic Music</a></li>
+		      	<li><a href="http://mikelipson.com/aem">Advanced Electronic Music</a></li>
+		      	<li><a href="http://mikelipson.com/signout">Sign Out</a></li>
+		      	<li><a href="http://portal.3dgamelab.org">3D GameLab</a></li>
+		      	<li><a href="http://mikelipson.com/handin">Upload a File</a></li>
+	      	</ul>
+      	</div>
+      	<div class="span5">
+	      	<div class="footer-banner">
+		      	<h3 class="footer-title">I do game-based education stuff.</h3>
+		      	<p>I teach Game Design and Electronic Music at Natick High School. Want to hear more about what I do? Check out <a href="http://www.youtube.com/watch?v=XMMTdGwl2mc">my panel from PAX East 2013</a>.</p>
+
+	      	</div>
+      	</div>
+      </div>
+      </div>
+    </footer>
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="js/jquery.dropkick-1.0.0.js"></script>
+    <script src="js/custom_checkbox_and_radio.js"></script>
+    <script src="js/custom_radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <script src="js/application.js"></script>
+    <!--[if lt IE 8]>
+      <script src="js/icon-font-ie7.js"></script>
+      <script src="js/icon-font-ie7-24.js"></script>
+    <![endif]-->
+  </body>
+</html>

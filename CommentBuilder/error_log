@@ -1,0 +1,148 @@
+[02-Jul-2012 15:00:57 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 9
+[02-Jul-2012 15:01:22 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 9
+[02-Jul-2012 16:06:59 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 9
+[02-Jul-2012 16:08:51 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'http' (1) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 9
+[02-Jul-2012 16:13:36 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:13:36 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:14:53 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:14:53 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:25:05 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:25:05 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:25:22 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 16:25:22 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 198
+[02-Jul-2012 23:53:29 UTC] PHP Warning:  require_once(MySqlConnectionphp) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 3
+[02-Jul-2012 23:53:29 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'MySqlConnectionphp' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 3
+[02-Jul-2012 23:53:36 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:53:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: localhost' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(36): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:53:38 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:53:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: localhost' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(36): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:55:05 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:55:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: localhost' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(36): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:55:34 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:55:34 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: localhost' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(36): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:55:56 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:55:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: localhost' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:57:57 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:57:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: localhost' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:58:20 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:58:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[02-Jul-2012 23:59:57 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[02-Jul-2012 23:59:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com:3306' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:00:05 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:00:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:01:05 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'http' (1) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:01:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: http://oceanspray.asmallorange.com' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:01:12 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:01:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:03:49 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:03:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:03:56 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:03:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com:3306' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(27): MySqlConnection->doQuery(NULL)
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:04:24 UTC] PHP Fatal error:  Call to a member function doQuery() on a non-object in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 28
+[03-Jul-2012 00:05:08 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:05:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com:3306' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(28): MySqlConnection->doQuery('SELECT username...')
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:06:05 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:06:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com:3306' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(28): MySqlConnection->doQuery('SELECT password...')
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:09:37 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:09:37 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'oceanspray.asmallorange.com' (using password: NO) in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 85
+[03-Jul-2012 00:09:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not Connect to Host: oceanspray.asmallorange.com:3306' in /home/mikelips/public_html/Comment Builder/MySqlConnection.php:89
+Stack trace:
+#0 /home/mikelips/public_html/Comment Builder/MySqlConnection.php(128): MySqlConnection->connect()
+#1 /home/mikelips/public_html/Comment Builder/commentbuilder.php(30): MySqlConnection->doQuery('SELECT password...')
+#2 {main}
+  thrown in /home/mikelips/public_html/Comment Builder/MySqlConnection.php on line 89
+[03-Jul-2012 00:09:41 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:09:41 UTC] PHP Fatal error:  Call to a member function doQuery() on a non-object in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 32
+[03-Jul-2012 00:09:46 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:10:07 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:10:13 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:10:22 UTC] PHP Fatal error:  Class 'MySqlConnection' not found in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:10:44 UTC] PHP Fatal error:  Class 'MySqlConnection' not found in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:11:21 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:12:26 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:12:41 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 00:12:41 UTC] PHP Warning:  mysql_close(): no MySQL-Link resource supplied in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 34
+[03-Jul-2012 00:12:52 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 01:53:57 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'mikelips_me'@'oceanspray.asmallorange.com' (using password: YES) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 19
+[03-Jul-2012 01:53:57 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 01:53:57 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 21
+[03-Jul-2012 02:02:53 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 20
+[03-Jul-2012 19:11:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 58
+[03-Jul-2012 19:12:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 58
+[03-Jul-2012 20:16:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 136
+[03-Jul-2012 20:16:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/mikelips/public_html/Comment Builder/commentbuilder.php on line 136

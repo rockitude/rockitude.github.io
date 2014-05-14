@@ -1,0 +1,85 @@
+/*
+<?php 
+
+
+	require_once 'MySqlConnection.php';
+	
+	/*
+	$townName = $_GET["townName"];
+	$townName = addslashes($townName); //To pevent SQL Injection, but make sure magic quotes are off
+	*/
+	
+	$username = $_POST["username"];
+	$username = addslashes($username);
+	
+	$server = 'localhost';
+	$dataBase = 'comment_builder';
+	$userName = 'root';
+	$password = 'root';
+	
+	$mySqlConnection = new MySqlConnection($server, 
+										   $dataBase, 
+										   $userName, 
+										   $password);
+										   
+	$buttonsSQL = "SELECT buttons.buttonid
+				FROM buttons buttons,
+					 relations relations,
+					 users users
+				WHERE buttons.userid = relations.userid AND
+					  buttons.buttonid = relations.buttonid AND
+					  users.username = '$username'";
+											   
+/*
+	$townProgramsSql = "SELECT p.projectName
+				        FROM tblprojects p, 
+				             tbltowns t, 
+				             tblenabledprojects e
+				        WHERE p.projectId = e.projectId AND
+				              t.townId = e.townId AND
+				              t.townName = '$townName' AND
+				              p.isTownProgram = 1";
+		
+	$schoolProgramsSql = "SELECT p.projectName
+				          FROM tblprojects p, 
+				               tbltowns t, 
+				               tblenabledprojects e
+				          WHERE p.projectId = e.projectId AND
+				              t.townId = e.townId AND
+				              t.townName = '$townName' AND
+				              p.isSchoolProgram = 1";
+		
+	$townProjectRows = $mySqlConnection->doQuery($townProgramsSql);
+	$schoolProjectRows = $mySqlConnection->doQuery($schoolProgramsSql);
+*/
+	
+	$buttons = $mySqlConnection->doQuery($buttonsSQL);
+	
+?>
+*/
+
+<?php 
+
+
+	require_once './MySqlConnection.php';
+	
+	$username = $_POST["username"];
+	$username = addslashes($username);
+	
+	$server = 'localhost';
+	$dataBase = 'comment_builder';
+	$userName = 'root';
+	$password = 'macr0micr0';
+
+	$mySqlConnection = new MySqlConnection($server, 
+										   $dataBase, 
+										   $userName, 
+										   $password);
+
+	$passwordQuery = "SELECT username, password 
+				      FROM users 
+				      WHERE username = '$username'";	
+	
+	$password = $mySqlConnection->doQuery($passwordQuery);
+
+?>
