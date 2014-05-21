@@ -1,150 +1,318 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Mike Lipson</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Loading Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
+<!doctype html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
-        <style type="text/css" media="screen">
-    	body{
-	    	text-align: center;
-    	}
-    	footer{
-	    	text-align: left;
-    	}
-    </style>
+	<title>Mike Lipson | Instructional Technology Specialist</title> 
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	
+	<link rel="prefetch" href="images/zoom.png">
+	
+	<style type="text/css" media="screen">
+		a.heading_link {
+			color: white;
+		}
+	</style>
+		
+</head>
 
-  </head>
-  <body>
-  	<div class="row">
-	  	<div class="container">
-		  	<div class="span12">
-				<div class="navbar">
-				  	<div class="navbar-inner">
-					  	<ul class="nav">
-					  		<li><a href="http://www.mikelipson.com"><span class="fui-location-24"></span> Home</a></li>
-					  		<li><a href="./policies.html"><span class="fui-bubble-24"></span> Policies</a></li>
-						  	<li><a href="#"><span class="fui-menu-24"></span> Courses</a>
-						  		<ul>
-							  		<li><a href="http://mikelipson.com/gd">Game Design</a></li>
-							  		<li><a href="http://mikelipson.com/em">Electronic Music</a></li>
-							  		<li><a href="http://mikelipson.com/dm">Digital Media</a></li>
-						  		</ul>
-						  	</li>
-						  	<li><a href="#"><span class="fui-cmd-24"></span> Software</a>
-						  		<ul>
-							  		<li><a href="http://mikelipson.com/whomentionedme">WhoMentioned.me</a></li>
-							  		<li><a href="https://chrome.google.com/webstore/detail/countdown-sync/naaagdppdnlgjaagffdoahonofggebpd?utm_source=chrome-ntp-launcher">Countdown Sync</a></li>
-							  		<li><a href="http://github.com/rockitude">Github</a></li>
-						  		</ul>
-						  	</li>
-						  	<li><a href="http://www.youtube.com/user/mlipsonvids"><span class="fui-video-24"></span> YouTube</a></li>
-						  	<li><a href="http://www.mikelipson.com/resume.html"><span class="fui-man-24"></span> Resume</a></li>
-					  	</ul> 
-				  	</div> <!-- end navbar-inner -->
-			  	</div> <!-- end navbar -->
-			</div> <!-- end span12 -->
-	  	</div> <!-- end container -->
-  	</div> <!-- end row -->
-	  	
-    <div class="container">
-		<div class="demo-headline">	<div class="logo">    	
-			<h1 class="demo-logo">Mike Lipson
-		    <small>Game Based Learning, Audio Engineering, Software Development</small>
-		    </h1>
-		</div>    	
-	</div>	
-	<h2>What would you like to do?</h2>
-	<div class="row demo-tiles">
-		<div class="span3">
-			<div class="tile">
-				<img class="tile-image big-illustration" src="images/illustrations/paper.png">
-				<h3 class="tile-title">Leave the Room</h3>
-				<p>Go to the bathroom, your locker, get a drink.</p>
-				<a class="btn btn-primary btn-large btn-block" href="./signout.html">Sign Out</a>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="tile">
-				<img class="tile-image big-illustration" src="images/illustrations/map.png">
-				<h3 class="tile-title">Open 3D GameLab</h3>
-				<p>Work on a quest, check your gamerscore.</p>
-				<a class="btn btn-primary btn-large btn-block" href="http://portal.3dgamelab.org">Quest</a>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="tile">
-				<img class="tile-image big-illustration" src="images/illustrations/clipboard.png">
-				<h3 class="tile-title">Upload a File</h3>
-				<p>Hand in assignments or show me your work.</p>
-				<a class="btn btn-primary btn-large btn-block" href="http://mikelipson.com/handin">Upload</a>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="tile">
-				<img class="tile-image big-illustration" src="images/illustrations/book.png">
-				<h3 class="tile-title">Open iPass</h3>
-				<p>View your progress report, check your grades.</p>
-				<a class="btn btn-primary btn-large btn-block" href="http://ipass.natickps.org">Check</a>
-			</div>
-		</div>
+<body>
+	<div class="navbar navbar-fixed-top" data-activeslide="1">
+		<div class="container">
+		
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav row">
+					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Intro"><span class="icon icon-home"></span> <span class="text">INTRO</span></a></li>
+					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Teaching"><span class="icon icon-book"></span> <span class="text">TEACHING</span></a></li>
+					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Software"><span class="icon icon-hdd"></span> <span class="text">SOFTWARE</span></a></li>
+					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Videos"><span class="icon icon-film"></span> <span class="text">VIDEOS</span></a></li>
+					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Resumé"><span class="icon icon-list-alt"></span> <span class="text">RESUME</span></a></li>
+					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Contact"><span class="icon icon-inbox"></span> <span class="text">CONTACT</span></a></li>
+				</ul>
+				<div class="row">
+					<div class="col-sm-2 active-menu"></div>
+				</div>
+			</div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+	
+	
+	<!-- === Arrows === -->
+	<!--
+<div id="arrows">
+		<div id="arrow-up" class="disabled"></div>
+		<div id="arrow-down"></div>
+		<div id="arrow-left" class="disabled visible-lg"></div>
+		<div id="arrow-right" class="disabled visible-lg"></div>
+	</div> 
+--> <!-- /.arrows -->
+	
+	
+	<!-- === MAIN Background === -->
+	<div class="slide story" id="slide-1" data-slide="1">
+		<div class="container">
+			<div id="home-row-1" class="row clearfix">
+				<div class="col-12">
+					<h1 class="font-semibold">Mike <!-- <span class="font-thin">&</span> --> Lipson</h1>
+					<h4 class="font-thin">Instructional Technology Specialist </h4>
+					<br>
+					<br>
+				</div><!-- /col-12 -->
+			</div><!-- /row -->
+			<div id="home-row-2" class="row clearfix">
+				<div class="col-12 col-sm-4"><span>GAMIFIED COURSES</span></div>
+				<div class="col-12 col-sm-4"><span>WEB APPLICATIONS</span></div>
+				<div class="col-12 col-sm-4"><span>INSTRUCTIONAL VIDEOS</span></div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide1 -->
+	
+	<!-- === Slide 2 - Teaching === -->
+	<div class="slide story" id="slide-2" data-slide="2">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin"><span class="font-semibold">Game-Based</span> Education </div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-12 font-thin">I teach technology-focused elective courses at Natick High School, and Game Design at TEC Online Academy. Want to hear more about what I do? Check out my panel from <a href="https://www.youtube.com/watch?v=zilRtcw9rS0" class="font-semibold">PAX East 2013</a>.</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-play"></i></p>
+					<h2 class="font-thin"><a href="http://mikelipson.com/gd" class="heading_link">Game Design</a></h2>
+					<h4 class="font-thin">Get introduced to computer programming and game development using JavaScript and Unity 3D. </h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-fast-forward"></i></p>
+					<h2 class="font-thin"><a href="http://mikelipson.com/gd" class="heading_link">Advanced Game Design</a></span></h2>
+					<h4 class="font-thin">The next level of Game Design: work together with your class to build a video game.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-headphones"></i></p>
+					<h2 class="font-thin"><a href="http://mikelipson.com/em" class="heading_link">Electronic Music</a></h2>
+					<h4 class="font-thin">Learn the basics of audio production by creating your own original music in any genre. </h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-thumbs-up"></i></p>
+					<h2 class="font-thin"><a href="http://mikelipson.com/dm" class="heading_link">Digital Media</a> </h2>
+					<h4 class="font-thin">Explore the basics of media and computing while creating audio, image, video and multimedia projects. </h4>
+				</div><!-- /col12 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
+	
+		<!-- === Slide 3 - Software === -->
+	<div class="slide story" id="slide-2" data-slide="3" style="background-color: #000">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin"><span class="font-semibold">Web</span> Applications </div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-12 font-thin">From Chrome Applications and Google Apps utilities to Unity games and websites, I've got new and interesting   software projects going on all the time.</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-cloud-upload"></i></p>
+					<h2 class="font-thin"><a href="https://chrome.google.com/webstore/detail/countdown-sync/naaagdppdnlgjaagffdoahonofggebpd?utm_source=chrome-app-launcher" class="heading_link">Countdown Sync</a></h2>
+					<h4 class="font-thin">A syncing countdown timer for Chrome </h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-envelope"></i></p>
+					<h2 class="font-thin"><a href="https://github.com/rockitude/grade-warning-emailer" class="heading_link">Grade Warning Emailer</a></span></h2>
+					<h4 class="font-thin">Automatic email notifications for students</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-user"></i></p>
+					<h2 class="font-thin"><a href="https://github.com/rockitude/Alfred-Workflows" class="heading_link">Alfred Workflows</a></h2>
+					<h4 class="font-thin">Small utilities to make every tasks easier </h4>
+				</div><!-- /col12 -->
+
+				<div class="col-12 col-lg-3 col-sm-6">
+					<p><i class="icon icon-th-list"></i></p>
+					<h2 class="font-thin"><a href="https://github.com/rockitude" class="heading_link">Github</a> </h2>
+					<h4 class="font-thin">Check out my profile for more </h4>
+				</div><!-- /col12 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
+
+	
+	<!-- === SLide 3 - Applications -->
+<!--
+	<div class="slide story" id="slide-3" data-slide="3">
+		<div class="row"> 
+-->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p01-large.jpg"><img class="thumb" src="images/portfolio/p01-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p02-large.jpg"><img class="thumb" src="images/portfolio/p02-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p09-large.jpg"><img class="thumb" src="images/portfolio/p09-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p010-large.jpg"><img class="thumb" src="images/portfolio/p10-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p05-large.jpg"><img class="thumb" src="images/portfolio/p05-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p06-large.jpg"><img class="thumb" src="images/portfolio/p06-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p07-large.jpg"><img class="thumb" src="images/portfolio/p07-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p08-large.jpg"><img class="thumb" src="images/portfolio/p08-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p03-large.jpg"><img class="thumb" src="images/portfolio/p03-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p04-large.jpg"><img class="thumb" src="images/portfolio/p04-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p11-large.jpg"><img class="thumb" src="images/portfolio/p11-small.jpg" alt=""></a></div> -->
+<!-- 			<div class="col-12 col-sm-6 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p12-large.jpg"><img class="thumb" src="images/portfolio/p12-small.jpg" alt=""></a></div>  -->
 
 
+		</div><!-- /row -->
+<!-- 	</div><!-- /slide3	 -->
+	
+	<!-- === Slide 4 - Video === -->
+	<div class="slide story" id="slide-4" data-slide="4">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin"><span class="font-semibold">Instructional</span> Video</div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">On my YouTube channel, you'll find a variety of instructional videos on lots of topics, ranging from how to create animated video game characters to strategies teachers can use to grade students' work quickly.</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-2">
+				
+				<iframe width="800" height="450" src="http://www.youtube.com/embed/videoseries?list=PLm1JzZLEY-ruB89yerX7N2nB6xxDutu7O" frameborder="0" allowfullscreen style="margin-bottom: 60px"></iframe>
+<!-- 					<p><i class="icon icon-bolt"></i></p> -->
+<!-- 					<h2 class="font-thin">Listening to<br><span class="font-semibold" >your needs</span></h2> -->
+<!-- 					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4> -->
+<!-- 				</div><!-- /col12 --> 
+<!-- 					<div class="col-12 col-sm-2"> -->
+<!-- 					<p><i class="icon icon-cog"></i></p> -->
+<!-- 					<h2 class="font-thin">Project<br><span class="font-semibold">discovery</span></h2> -->
+<!-- 					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4> -->
+<!-- 				</div><!-- /col12 --> 
+<!-- 				<div class="col-12 col-sm-2"> -->
+<!-- 					<p><i class="icon icon-cloud"></i></p> -->
+<!-- 					<h2 class="font-thin">Storming<br><span class="font-semibold">our brains</span></h2> -->
+<!-- 					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4> -->
+<!-- 				</div><!-- /col12 --> 
+<!-- 				<div class="col-12 col-sm-2"> -->
+<!-- 					<p><i class="icon icon-map-marker"></i></p> -->
+<!-- 					<h2 class="font-thin">Getting<br><span class="font-semibold">there</span></h2> -->
+<!-- 					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4> -->
+<!-- 				</div> <!-- /col12 --> 
+<!-- 					<div class="col-12 col-sm-2"> -->
+<!-- 					<p><i class="icon icon-gift"></i></p> -->
+<!-- 					<h2 class="font-thin">Delivering<br><span class="font-semibold">the product</span></h2> -->
+<!-- 					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4> -->
+<!-- 				</div><!-- /col12 --> 
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide4 -->
+	
+	<!-- === Slide 5 - Resume === -->
+	<div class="slide story" id="slide-5" data-slide="5">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin"><span class="font-semibold">Hire</span> Me</div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">If you'd like to learn more about my qualifications, check out my <a href="downloads/resume.pdf">Resumé</a>.</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
+				<!-- <div class="col-12 col-sm-2"><img src="images/client01.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="images/client02.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="images/client03.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="images/client04.png" alt=""></div>
+				<div class="col-12 col-sm-2"><img src="images/client05.png" alt=""></div>
+				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div> -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide5 -->
+	
+	<!-- === Slide 6 / Contact === -->
+	<div class="slide story" id="slide-6" data-slide="6">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-light"><span class="font-semibold">Contact Me</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">
+				
+					Email: <a href="mailto:themikelipson@gmail.com">themikelipson@gmail.com</a><br />
+					Twitter: <a href="http://twitter.com/rockitude">@rockitude</a><br />
+					Github: <a href="https://github.com/rockitude">Rockitude</a><br />
+					LinkedIn: <a href="https://www.linkedin.com/mikelipson">Rockitude</a>
+					
+				</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+			<div id="contact-row-4" class="row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				
+								<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /Slide 6 -->
+	
+</body>
 
-	</div>
-    </div> <!-- /container -->
+	<!-- SCRIPTS -->
+	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script src="js/script.js"></script>
+	
+	<!-- fancybox init -->
+	<script>
+	$(document).ready(function(e) {
+		var lis = $('.nav > li');
+		menu_focus( lis[0], 1 );
+		
+		$(".fancybox").fancybox({
+			padding: 10,
+			helpers: {
+				overlay: {
+					locked: false
+				}
+			}
+		});
+	
+	});
+	</script>
 
-    <footer>
-      <div class="container">
-      <div class="row">
-      	<div class="span7">
-	      	<h3 class="footer-title">Links</h3>
-	      	<ul>
-		      	<li><a href="http://mikelipson.com/gd">Game Design</a></li>
-		      	<li><a href="http://mikelipson.com/em">Electronic Music</a></li>
-		      	<li><a href="http://mikelipson.com/aem">Advanced Electronic Music</a></li>
-		      	<li><a href="./signout.html">Sign Out</a></li>
-		      	<li><a href="http://portal.3dgamelab.org">3D GameLab</a></li>
-		      	<li><a href="http://mikelipson.com/handin">Upload a File</a></li>
-	      	</ul>
-      	</div>
-      	<div class="span5">
-	      	<div class="footer-banner">
-		      	<h3 class="footer-title">I do game-based education stuff.</h3>
-		      	<p>I teach Game Design and Electronic Music at Natick High School. Want to hear more about what I do? Check out <a href="https://www.youtube.com/watch?v=zilRtcw9rS0">my panel from PAX East 2013</a>.</p>
-
-	      	</div>
-      	</div>
-      </div>
-      </div>
-    </footer>
-
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.8.2.min.js"></script>
-    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
-    <script src="js/jquery.dropkick-1.0.0.js"></script>
-    <script src="js/custom_checkbox_and_radio.js"></script>
-    <script src="js/custom_radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-    <script src="http://vjs.zencdn.net/c/video.js"></script>
-    <script src="js/application.js"></script>
-    <!--[if lt IE 8]>
-      <script src="js/icon-font-ie7.js"></script>
-      <script src="js/icon-font-ie7-24.js"></script>
-    <![endif]-->
-  </body>
 </html>

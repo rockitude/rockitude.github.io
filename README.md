@@ -1,5 +1,4 @@
-MikeLipson.com
+M-L
+===
 
-===========================
-
-My personal website and landing page. Also used as a testing ground for new webby stuff. Some cleanup coming soon.
+Portfolio site. In progress. Gonna be naice.
