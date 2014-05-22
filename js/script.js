@@ -252,7 +252,7 @@ jQuery(document).ready(function ($) {
 ******************/
 jQuery(document).ready(function ($) {
 	//Cache some variables
-	var images = $('#slide-3 a');
+	var images = $('#slide-3 > a');
 	
 	images.hover(
 		function(e) {
