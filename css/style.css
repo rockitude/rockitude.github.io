@@ -211,8 +211,8 @@ body {
 .slide {
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-bottom: 65px;
-	padding-top: 50px;
+	//padding-bottom: 65px;
+	//padding-top: 50px;
 	text-align: center;
 }
 
@@ -303,6 +303,20 @@ body {
 }
 
 #slide-2 {
+/*
+	background-color: #1abc9c;
+	color: #e4e6e5;
+	padding-top: 90px;
+*/
+}
+
+.slide-content {
+	padding-bottom: 65px;
+	padding-top: 50px;
+
+}
+
+#slide-2-content {
 	background-color: #1abc9c;
 	color: #e4e6e5;
 	padding-top: 90px;
@@ -382,13 +396,30 @@ body {
 }
 
 #slide-3 {
+/*
 	background-color: #000;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 	text-align: left;
 	width: 100%;
+*/
 }
+
+#slide-3-content {
+	background-color: #000;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+	color: #e4e6e5;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 65px;
+
+}
+
 	
 	#slide-3 .col-12 {
 		display: inline-block;
@@ -439,10 +470,19 @@ body {
 }
 
 #slide-4 {
+/*
+	background-color: #34495e;
+	color: #e4e6e5;
+	padding-top: 90px;
+*/
+}
+
+#slide-4-content {
 	background-color: #34495e;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
+
 
 #slide-4 i {
 		font-size: 80px;
@@ -451,17 +491,36 @@ body {
 
 
 #slide-5 {
+/*
+	background-color: #f39c12;
+	color: #e4e6e5;
+	padding-top: 90px;
+*/
+}
+
+#slide-5-content {
 	background-color: #f39c12;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
 
+
 #slide-6 {
+/*
+	background-color: #2f2f2f;
+	color: #e4e6e5;
+	padding-bottom: 350px;
+	padding-top: 90px;
+*/
+}
+
+#slide-6-content {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
 	padding-bottom: 350px;
 	padding-top: 90px;
 }
+
 
 @media (max-width: 767px) {
 	#slide-6 {
